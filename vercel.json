@@ -3,7 +3,7 @@
     "api/**/*.js": {
       "runtime": "nodejs14.x",
       "memory": 512,
-      "maxDuration": 20
+      "maxDuration": 10
     }
   },
   "routes": [
