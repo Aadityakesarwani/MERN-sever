@@ -5,11 +5,5 @@
   ],
   "routes": [
     { "src": "/.*", "dest": "/index.js" }
-  ],
-  "functions": {
-    "api": {
-      "handler": "index.app",
-      "memory": 512
-    }
-  }
+  ]
 }
