@@ -30,6 +30,10 @@ useUnifiedTopology: true})
 .catch((error) => console.log(error.message));
 
 // mongoose.set('useFindAndModify',false);
+// Export app instance as a server
+export default {
+    app
+  };
 
 
 
