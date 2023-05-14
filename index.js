@@ -31,9 +31,8 @@ useUnifiedTopology: true})
 
 // mongoose.set('useFindAndModify',false);
 // Export app instance as a server
-export default {
-    app
-  };
+export default app;
+
 
 
 
